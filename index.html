@@ -2,9 +2,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Diplom</title>
+    <link rel="SHORTCUT ICON" href="img/foto.jpg" type="image">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
@@ -12,30 +13,45 @@
 <body>
 <header>
   <div class="container">
-   <div class="row navbar mb-5">
-     <div class="col-md-2 logo">
-       <a href="#"><img src="img/logo.png"></a>
-    </div>
-    <nav class="offset-4 col-md-6 nav nav-pills flex-column flex-sm-row">
+   <div class="row navbar mb-5 d-flex justify-content-between">
+      <div class="col-md-2 col-sm-3 logo">
+          <a href="#"><img src="img/logo.png"></a>
+        </div>
+        <nav class="offset-md-2 offset-sm-0 col-md-6 nav nav-pills flex-column flex-sm-row menu">
             <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#">Hello</a>
-            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#">About</a>
-            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#">Services</a>
-            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#">Portfolio</a>
-            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#">Team</a>
-            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#">Blog</a>
-            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#">Contact</a>
-          </nav>
-    </div>
+            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#about">About</a>
+            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#services">Services</a>
+            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#portfolio">Portfolio</a>
+            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#team">Team</a>
+            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#blog">Blog</a>
+            <a class="flex-sm-fill text-sm-center nav-link home-nav" href="#contact">Contact</a>
+         </nav>
+
+        <div class="col-md-1 col-sm-12">
+          <div class="burger">
+            <nav class="burger_nav">
+              <a href="#" class="burger_nav_link">Hello</a>
+              <a href="#about" class="burger_nav_link">About</a>
+              <a href="#services" class="burger_nav_link">Services</a>
+              <a href="#portfolio" class="burger_nav_link">Portfolio</a>
+              <a href="#team" class="burger_nav_link">Team</a>
+              <a href="#blog" class="burger_nav_link">Blog</a>
+              <a href="#contact" class="burger_nav_link">Contact</a>
+           </nav>
+          </div>
+        </div>
+      </div>
+
     <div class="row">
-      <div class="heading offset-3 col-md-6 text-center">
+      <div class="heading offset-md-3 offset-0 col-md-6 text-center">
           <h1 class="white">We Are Code Cafe</h1>
           <p class="white">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
               praesentium voluptatum</p>
       </div>
     </div>
-    <div class="arrow row mb-5">
-    <div class="offset-5 col-md-2 text-center mb-5 mt-5">
-        <a href="#"><i class="icon-angle-down"></i></a>
+    <div class="arrow row">
+    <div class="offset-md-5 offset-sm-0 col-md-2 text-center mb-lg-5">
+        <a href="#footer"><i class="icon-angle-down"></i></a>
     </div>
     </div>
   </div>
@@ -43,10 +59,10 @@
 
 <section>
 <div class="container">
-    <div class="row">
-        <div class="offset-1 col-md-6 mt-5">
+    <div class="row d-flex justify-content-between mt-5">
+        <div class="offset-md-1 offset-0 col-md-6 mt-md-5">
             <h2>This is Bouncy</h2>
-            <p>   At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            <p>  At vero eos et accusamus et iusto odio dignissimos ducimus qui
                  blanditiis praesentium voluptatum deleniti atque corrupli quos 
                  dolores et quas molestias excepturi sint occaecati cupiditate non
                  provident, similique sunt in culpa qui officia deserunt mollitia
@@ -55,36 +71,36 @@
             </p>
             <button class="btn-black button mt-3">Read More</button>
         </div>
-        <div class="col-md-4">
-            <img src="img/mac.png">
+        <div class="col-md-4 d-flex justify-content-center">
+            <img src="img/ipad.png">
         </div>
     </div>
 </div>
 </section>
 
-<section>
+<section id="about">
     <div class="container">
     <div class="row">
-        <div class="heading offset-3 col-md-6 text-center">
-          <h1>DetailS ABOUT BOUNCY</h1>
+        <div class="heading offset-md-3 offset-0 col-md-6 text-center">
+          <h2>DetailS ABOUT BOUNCY</h2>
           <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
           praesentium</p>
         </div>
     </div>
     <div class="row">
-    <div class="offset-4 col-md-4 text-center mt-5 mb-5">
+    <div class="offset-md-4 ofsset-0 col-md-4 text-center mt-5 mb-5">
     <i class="icon-heart"></i>
     <i class="icon-mouse"></i>
     <i class="icon-lightbulb"></i>
     </div>
     </div>
     <div class="row">
-      <div class="offset-1 col-md-2">
+      <div class="offset-md-1 offset-0 col-md-2">
       <p class="title-small">Creative Ideas</p>
       </div>
     </div>
     <div class="row d-flex">
-      <div class="offset-1 col-md-4">
+      <div class="offset-md-1 offset-0 col-md-4">
       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
         blanditiis praesentium voluptatum deleniti atque corrupli quos dolores
       </p>
@@ -99,8 +115,8 @@
       </div>
     </div>
     <div class="row">
-        <div class="offset-3 col-md-6 text-center heading mb-5">
-          <p class="title-small-title">FEATURED PROJECTS</p>
+        <div class="offset-md-3 offset-0 col-md-6 text-center heading mb-5">
+          <h2>FEATURED PROJECTS</h2>
           <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium
           </p>
@@ -110,66 +126,74 @@
 </section>
 
 <section id="projects" class="projects">
-  <!-- <div class="container"> -->
+  <div class="container">
    <div class="row">
-      <div class="d-flex justify-content-center">
-          <div><img src="img/img1.jpg" class="card-img-top" alt="..."></div>
-          <div class="img"><img src="img/img2.jpg" class="card-img-top" alt="...">
+      <div class="d-flex justify-content-center project-img">
+          <div>
+            <img src="img/img1.jpg" class="card-img">
+          </div>
+          <div class="img"><img src="img/img2.jpg" class="card-img" alt="...">
             <div>
              <p class="img-text">Vintage</p>
             </div>
           </div>
-          <div class="img"><img src="img/img3.jpg" class="card-img-top" alt="...">
+          <div class="img"><img src="img/img3.jpg" class="card-img" alt="...">
             <div class="img-description">
              <p class="img-text">Branding</p>
             </div>
           </div>
         </div>
    </div>
-   <div class="row d-flex justify-content-between bg pt-4 pb-4">
-      <div class="offset-1 col-md-8 pt-1">
+   <div class="row bg-projects d-flex justify-content-between pt-md-4 pb-md-4">
+      <div class="offset-md-1 offset-0 col-md-8 pt-1">
       <p class="white justify-iteam-center">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
         blandit is
       </p>
       </div>
-      <div class="col-md-2">
-        <button class="btn button">Submit Now</button>
+      <div class="col-md-3 col-sm-4">
+        <button type="button" class="btn button">Submit Now</button>
       </div>
     </div>
-  <!-- </div> -->
+  </div>
 </section>
 
-<section>
+<section id="services">
   <div class="container mb-5">
       <div class="row">
-          <div class="offset-3 col-md-6 text-center heading mb-5">
-            <p class="title-small-title text-uppercase">our services</p>
+          <div class="offset-md-3 offset-0 col-md-6 text-center heading mb-5">
+            <h2>our services</h2>
             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
               blanditiis praesentium
             </p>
           </div>
         </div>
         <div class="row">
-          <div class="offset-1 col-md-1">
-          <i class="icon-tools"></i>
-          <i class="icon-params"></i>
-          <i class="icon-gamepad"></i>
-          <i class="icon-plug"></i>
+          <div class="offset-md-1 offset-3 col-md-1 static-icon">
+             <div class="mt-md-2 mb-3"><i class="icon-tools"></i></div>
+             <div class="mb-3"><i class="icon-params"></i></div>
+             <div class="mb-3"><i class="icon-gamepad"></i></div>
+             <div class="mb-3"><i class="icon-plug"></i></div>
           </div>
           <div class="col-md-4">
             <p class="title-small">Graphic Design</p>
-            <p>At vero eos et accusamus et <span>iusto</span> odio dignissimos <span>ducimus</span> qui 
+            <p>At vero eos et accusamus et <span class="green font-weight-bold">iusto</span> odio dignissimos <span class="font-weight-bold">ducimus</span> qui 
             blanditiis praesentium voluptatum deleniti</p>
             <p>quos dolores et quas molestias excepturi sint occaecati cupiditate
-              non provident,<span>similique sunt</span> in culpa qui officia deserunt
+              non provident,<span class="green font-weight-bold"> similique sunt</span> in culpa qui officia deserunt
               mollitia animi, id est laborum et dolorum fuga.
             </p>
           </div>
-          <div class="col-md-5">
-            <div class="d-flex mb-2">
-            <p class="static text-center mt-5 pt-3">80<span>%</span></p>
-            <p class="static text-center mt-5 pt-3">75<span>%</span></p>
-            <p class="static text-center mt-5 pt-3">60<span>%</span></p>
+          <div class="col-md-5 ml-md-5">
+            <div class="d-flex mb-2 w-100">
+                <div class="static">
+                  <p class="text-center mt-2 pt-3">80<span>%</span></p>
+                </div>
+                <div class="static">
+                  <p class="text-center mt-2 pt-3">75<span>%</span></p>
+                </div>
+                <div class="static">
+                  <p class="text-center mt-2 pt-3">60<span>%</span></p>
+                </div>
             </div>
             <div class="d-flex mt-4 text-center">
               <p class="static-text mt-1">Branding</p>
@@ -199,17 +223,17 @@
   </div>
 </section>
 
-<section id="Portfolio" class="Portfolio">
+<section id="portfolio" class="Portfolio">
   <div class="container">
     <div class="row">
-     <div class="offset-3 col-md-6 text-center mt-5 mb-5">
-      <p class="title-small text-uppercase">The Portfolio</p>
+     <div class="offset-md-3 offset-0 col-md-6 text-center mt-5 mb-5">
+      <h2>The Portfolio</h2>
       <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
       blanditiis praesentium </p>
    </div>
   </div>
   <div class="row">
-    <div class="offset-3 col-md-6 mb-5">
+    <div class="offset-md-3 offset-0 col-md-6 mb-5">
       <ul class="nav nav-pills nav-fill">
           <li class="nav-item">
             <a class="nav-link portfolio-nav" href="#">All Works</a>
@@ -237,139 +261,565 @@
   </div>
   <div class="row">
     <div class="portfolio-img-wrapper mb-3">
-     <div><img src="img/image1.jpg" class="img-1"></div>
-     <div><img src="img/image2.jpg" class="img-2"></div>
-     <div><img src="img/image3.jpg" class="img-3"></div>
-     <div><img src="img/image4.jpg" class="img-4"></div>
-     <div><img src="img/image5.jpg" class="img-5"></div>
-     <div><img src="img/image6.jpg" class="img-6"></div>
-     <div><img src="img/image7.jpg" class="img-7"></div>
-     <div><img src="img/image8.jpg" class="img-8"></div>
-     <div><img src="img/image9.jpg" class="img-9"></div>
-     <div><img src="img/image10.jpg" class="img-10"></div>
-     <div><img src="img/image11.jpg" class="img-11"></div>
-     <div><img src="img/image12.jpg" class="img-12"></div>
+     <div>
+       <img src="img/image1.jpg" class="img-1">
+     </div>
+     <div>
+       <img src="img/image2.jpg" class="img-2">
+     </div>
+     <div>
+       <img src="img/image3.jpg" class="img-3">
+     </div>
+     <div>
+       <img src="img/image4.jpg" class="img-4">
+     </div>
+     <div>
+       <img src="img/image5.jpg" class="img-5">
+     </div>
+     <div>
+       <img src="img/image6.jpg" class="img-6">
+     </div>
+     <div class="img-content">
+       <img src="img/image7.jpg" class="img-7">
+       <div class="img-content7">
+         <p class="text-uppercase green">title here</p>
+         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+           blanditiis praesentium
+         </p>
+       </div>
+     </div>
+     <div>
+       <img src="img/image8.jpg" class="img-8">
+     </div>
+     <div>
+       <img src="img/image9.jpg" class="img-9">
+     </div>
+     <div>
+       <img src="img/image10.jpg" class="img-10">
+     </div>
+     <div>
+       <img src="img/image11.jpg" class="img-11">
+     </div>
+     <div>
+       <img src="img/image12.jpg" class="img-12">
+     </div>
     </div>
   </div>
-  <div class="row pt-5 text-center progect">
-  <div class="offset-2 col-md-8">
+  <div class="row pt-5 text-center project">
+  <div class="offset-md-2 offset-0 col-md-8">
     <p class="white">At vero eos et <span>accusamus</span> et iusto odio <span>dignissimos</span> ducimus qui 
     blanditiis</p>
   </div>
-  <div class="offset-5 col-2 mb-5">
-    <button class="btn">Start Project</button>
+  <div class="offset-md-5 offset-sm-4 col-md-2 col-sm-4 mb-5">
+    <button type="button" class="btn">Start Project</button>
   </div>
   </div>
 </section>
 
-<section>
-  <div class="container">
+<section id="team">
+  <div class="container mb-5">
     <div class="row text-center mb-5">
-     <div class="offset-5 col-md-2 heading">
-        <p class="title-small text-uppercase">The Team</p>
+     <div class="offset-md-5 offset-0 col-md-2 heading">
+        <h2>The Team</h2>
       </div>
-      <div class="offset-3 col-md-6">
+      <div class="offset-md-3 offset-0 col-md-6">
         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
         blanditiis praesentium</p>
       </div>
      </div>
-     <div class="row">
-       <div class="offset-1 col-md-3">
-          <img src="img/static1.jpg">
-       </div>
-       <div class="offset-3 col-md-4">
-         <div class="text-sm-right">
-         <div class="name">
-           <p class="mr-3">Abdullah Noman</p>
-           <p class="text-uppercase mr-3">Creative Director, Code Cafe</p>
-         </div>
-         <p class="mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
-           blanditiis praesentium
-         </p>
-         </div>
-         <div class="mb-4">
-         <div class="text-uppercase d-flex justify-content-between">
-          <div>Branding</div>
-           <div>80%</div>
-         </div>
-         <div class="border">
-            <div class="border-branding"></div>
-         </div>
-         </div>
-         <div class="mb-4">
-         <div class="text-uppercase d-flex justify-content-between">
-          <div>Web Design</div>
-          <div>65%</div>
-         </div>
-         <div class="border">
-            <div class="border-design"></div>
-         </div>
-         </div>
-         <div>
-         <div class="text-uppercase d-flex justify-content-between">
-          <div>User Interface</div>
-          <div>75%</div>
+     <div id="carouselExampleIndicators1" class="carousel slide carousel-circle" data-ride="carousel">
+        <ol class="carousel-indicators mt-5">
+          <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row mb-5">
+                  <div class="offset-md-1 col-md-3">
+                     <img src="img/static1.jpg">
+                  </div>
+                  <div class="offset-md-3 offset-0 col-md-4">
+                    <div class="text-sm-right">
+                    <div class="name">
+                      <p class="mr-3">Abdullah Noman</p>
+                      <p class="text-uppercase mr-3">Creative Director, Code Cafe</p>
+                    </div>
+                    <p class="mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                      blanditiis praesentium
+                    </p>
+                    </div>
+                    <div class="mb-4">
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>Branding</div>
+                      <div>80%</div>
+                    </div>
+                    <div class="border">
+                       <div class="border-branding"></div>
+                    </div>
+                    </div>
+                    <div class="mb-4">
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>Web Design</div>
+                     <div>65%</div>
+                    </div>
+                    <div class="border">
+                       <div class="border-design"></div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>User Interface</div>
+                     <div>75%</div>
+                     </div>
+                     <div class="border">
+                         <div class="border-interface"></div>
+                     </div>
+                     </div>
+                  </div>
+                </div>
           </div>
-          <div class="border">
-              <div class="border-interface"></div>
+          <div class="carousel-item">
+              <div class="row mb-5">
+                  <div class="offset-md-1 col-md-3">
+                     <img src="img/static1.jpg">
+                  </div>
+                  <div class="offset-md-3 offset-0 col-md-4">
+                    <div class="text-sm-right">
+                    <div class="name">
+                      <p class="mr-3">Abdullah Noman</p>
+                      <p class="text-uppercase mr-3">Creative Director, Code Cafe</p>
+                    </div>
+                    <p class="mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                      blanditiis praesentium
+                    </p>
+                    </div>
+                    <div class="mb-4">
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>Branding</div>
+                      <div>80%</div>
+                    </div>
+                    <div class="border">
+                       <div class="border-branding"></div>
+                    </div>
+                    </div>
+                    <div class="mb-4">
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>Web Design</div>
+                     <div>65%</div>
+                    </div>
+                    <div class="border">
+                       <div class="border-design"></div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>User Interface</div>
+                     <div>75%</div>
+                     </div>
+                     <div class="border">
+                         <div class="border-interface"></div>
+                     </div>
+                     </div>
+                  </div>
+                </div>
           </div>
+          <div class="carousel-item">
+              <div class="row mb-5">
+                  <div class="offset-md-1 col-md-3">
+                     <img src="img/static1.jpg">
+                  </div>
+                  <div class="offset-md-3 offset-0 col-md-4">
+                    <div class="text-sm-right">
+                    <div class="name">
+                      <p class="mr-3">Abdullah Noman</p>
+                      <p class="text-uppercase mr-3">Creative Director, Code Cafe</p>
+                    </div>
+                    <p class="mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                      blanditiis praesentium
+                    </p>
+                    </div>
+                    <div class="mb-4">
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>Branding</div>
+                      <div>80%</div>
+                    </div>
+                    <div class="border">
+                       <div class="border-branding"></div>
+                    </div>
+                    </div>
+                    <div class="mb-4">
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>Web Design</div>
+                     <div>65%</div>
+                    </div>
+                    <div class="border">
+                       <div class="border-design"></div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="text-uppercase d-flex justify-content-between">
+                     <div>User Interface</div>
+                     <div>75%</div>
+                     </div>
+                     <div class="border">
+                         <div class="border-interface"></div>
+                     </div>
+                     </div>
+                  </div>
+                </div>
           </div>
-       </div>
-       <div class="offset-5 col-md-2 mt-5 mb-5 d-flex justify-content-center">
-         <div class="cicle mr-2"></div>
-         <div class="cicle mr-2"></div>
-         <div class="cicle"></div>
-       </div>
-     </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
      </div>
 </section>
 
-<section class="contact">
+<section class="talk">
   <div class="container">
   <div class="row">
-    <div class="offset-4 col-md-4 mt-5">
+    <div class="offset-md-4 col-md-4 mt-5">
       <p class="text-center white">Already Loved Us? Let’s talk!</p>
     </div>
-    <div class="offset-5 col-md-2 mb-5">
-      <button class="btn ml-4">Contact Us</button>
+    <div class="offset-md-5 offset-sm-4 col-md-3 col-sm-4 mb-5">
+      <button type="button" class="btn ml-4">Contact Us</button>
     </div>
   </div>
   </div>
 </section>
 
 <section>
-  <div class="container">
-    <div class="row">
-        <div class="offset-5 col-md-2 mt-5">
-            <p class="title-small text-uppercase mt-3">Testimonials</p>
+  <div class="container mb-5">
+    <div class="row text-center">
+        <div class="offset-md-5 offset-0 col-md-2 mt-5">
+            <h2>Testimonials</h2>
           </div>
-          <div class="offset-3 col-md-6 text-center">
+          <div class="offset-md-3 col-md-6">
             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
             blanditiis praesentium</p>
           </div>
     </div>
-    <div class="row d-flex mt-5">
-      <div class="offset-1 col-md-2">
-       <img src="img/foto.jpg">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators carousel-circle">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row d-flex mt-5">
+                <div class="offset-1 col-md-2">
+                 <img src="img/foto.jpg">
+                </div>
+                <div class="offset-1 col-md-8 mb-5">
+                  <p class="mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                   blanditiis praesentium voluptatum deleniti atque corrupli quos dolores
+                  et ques molestias excepturi sint occaecati cupiditate non provident,
+                  similique sunt in culpa qui officia deserunt mollitia.</p>
+                  <p class="text-uppercase green mb-0">Partho</p>
+                  <p class="text-uppercase">Founder, artways BD</p>
+                </div>
+              </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row d-flex mt-5">
+                <div class="offset-1 col-md-2">
+                 <img src="img/foto.jpg">
+                </div>
+                <div class="offset-1 col-md-8 mb-5">
+                  <p class="mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                   blanditiis praesentium voluptatum deleniti atque corrupli quos dolores
+                  et ques molestias excepturi sint occaecati cupiditate non provident,
+                  similique sunt in culpa qui officia deserunt mollitia.</p>
+                  <p class="text-uppercase green mb-0">Partho</p>
+                  <p class="text-uppercase">Founder, artways BD</p>
+                </div>
+              </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row d-flex mt-5">
+                <div class="offset-1 col-md-2">
+                 <img src="img/foto.jpg">
+                </div>
+                <div class="offset-1 col-md-8 mb-5">
+                  <p class="mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                   blanditiis praesentium voluptatum deleniti atque corrupli quos dolores
+                  et ques molestias excepturi sint occaecati cupiditate non provident,
+                  similique sunt in culpa qui officia deserunt mollitia.</p>
+                  <p class="text-uppercase green mb-0">Partho</p>
+                  <p class="text-uppercase">Founder, artways BD</p>
+                </div>
+              </div>
+        </div>
       </div>
-      <div class="offset-1 col-md-8">
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
-         blanditiis praesentium voluptatum deleniti atque corrupli quos dolores
-        et ques molestias excepturi sint occaecati cupiditate non provident,
-        similique sunt in culpa qui officia deserunt mollitia.</p>
-        <p class="text-uppercase green">Partho</p>
-        <p class="text-uppercase">Founder, artways BD</p>
-      </div>
-    </div>
-    <div class="row mt-5 mb-5 d-flex justify-content-center">
-      <div class="cicle mr-2"></div>
-      <div class="cicle mr-2"></div>
-      <div class="cicle"></div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </div>
 </section>
+
+<section id="blog" class="news">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 mt-5">
+        <p class="white">LATEST NEWS</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+          blanditiis praesentium
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-1 col-md-4 mt-5">
+        <p class="white mb-0">The trending Landing Pages</p>
+        <p class="text-uppercase font-italic mb-0">by <span class="green"> Kabir Uddin</span></p>
+        <p>6950 Likes - 243 Comments - 703 shares</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-1 col-md-7 mt-4 mb-5">
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+          blanditiis praesentium voluptatum deleniti atque corrupli ques dolores 
+          et ques molestias excepturi sint occaecati cupiditate non provident,
+          similique sunt in culpa qui officia deserunt mollitia animi, id est
+          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+          distinctio...
+        </p>
+        <button type="button" class="white bg-transparent mt-3">+ Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container mb-5">
+    <div class="row text-center">
+        <div class="offset-md-4 offset-0 col-md-4 mt-5">
+           <h2>our price</h2>
+        </div>
+        <div class="offset-md-3 offset-0 col-md-6 mb-5">
+           <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+           blanditiis praesentium</p>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center wrapper-price">
+             <div class="col-md-4">
+                 <div class="price card bg-light mb-3" style="max-width: 18rem;">
+                 <div class="bg white title-price card-header text-uppercase text-center">Premium</div>
+                 <div class="card-body mt-4">
+                   <h5 class="card-title text-center cost green">$60</h5>
+                   <p class="card-text text-center">Per Month</p>
+              </div>
+             </div>
+              <div class="price-hover card bg-light mb-3" style="max-width: 18rem;">
+                  <div class="card-body">
+                    <p class="card-text mb-1 mt-2">Full Branding</p>
+                    <p class="card-text mb-1">Progect Management</p>
+                    <p class="card-text mb-1">Unlimited Revisions</p>
+                    <p class="card-text mb-1">24/7 h Service</p>
+                    <p class="card-text mb-1">Free Domain</p>
+                    <p class="card-text mb-1">Free Hosting</p>
+                  </div>
+                  <div class="card-header bg">
+                    <button type="button" class="white bg-transparent mt-1 mb-1">Let's Start ></button>
+                  </div>
+                </div>
+      </div>
+      <div class="col-md-4">
+          <div class="price card bg-light mb-3" style="max-width: 18rem;">
+                <div class="bg white title-price card-header text-uppercase text-center">Premium</div>
+                <div class="card-body mt-4">
+                 <h5 class="card-title text-center cost green">$70</h5>
+                 <p class="card-text text-center">Per Month</p>
+              </div>
+            </div>
+            <div class="price-hover card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-body">
+                  <p class="card-text mb-1 mt-2">Full Branding</p>
+                  <p class="card-text mb-1">Progect Management</p>
+                  <p class="card-text mb-1">Unlimited Revisions</p>
+                  <p class="card-text mb-1">24/7 h Service</p>
+                  <p class="card-text mb-1">Free Domain</p>
+                  <p class="card-text mb-1">Free Hosting</p>
+                </div>
+                <div class="card-header bg">
+                  <button type="button" class="white bg-transparent mt-1 mb-1">Let's Start ></button>
+                </div>
+              </div>
+      </div>
+      <div class="col-md-4">
+          <div class="price card bg-light mb-3" style="max-width: 18rem;">
+              <div class="bg white title-price card-header text-uppercase text-center">Exclusive</div>
+              <div class="card-body mt-4">
+                <h5 class="card-title text-center cost green">$80</h5>
+                <p class="card-text text-center">Per Month</p>
+              </div>
+            </div>
+            <div class="price-hover card bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-body">
+                  <p class="card-text mb-1 mt-2">Full Branding</p>
+                  <p class="card-text mb-1">Progect Management</p>
+                  <p class="card-text mb-1">Unlimited Revisions</p>
+                  <p class="card-text mb-1">24/7 h Service</p>
+                  <p class="card-text mb-1">Free Domain</p>
+                  <p class="card-text mb-1">Free Hosting</p>
+                </div>
+                <div class="card-header bg">
+                  <button type="button" class="white bg-transparent mt-1 mb-1">Let's Start ></button>
+                </div>
+              </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="subscribe">
+  <div class="container pb-5">
+    <div class="row">
+      <div class="offset-md-4 offset-0 col-md-4 mt-5">
+         <h2 class="white text-center">Subscribe us</h2>
+      </div>
+      <div class="offset-md-3 offset-0 col-md-6 mb-5 text-center">
+         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+         blanditiis praesentium</p>
+      </div>
+  </div>
+  <div class="row mb-5">
+    <div class="offset-md-3 offset-0 col-md-6 d-flex justify-content-center input-subscribe">
+       <div>
+       <form>
+        <input type="text" name="email" size="40" placeholder="Email Address" class="p-1 email white">
+       </form>
+       </div>
+       <div>
+        <form>
+        <button type="button" class="text-uppercase bg-projects white btn-email">Submit</button>
+       </form>
+       </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-md-12 mt-5">
+        <h2 class="text-uppercase text-center">Contact us</h2>
+     </div>
+     <div class="offset-md-3 offset-sm-0 col-md-6 text-center mb-5">
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+        blanditiis praesentium</p>
+     </div>
+    </div>
+    <div class="row d-flex justify-content-center mb-5">
+      <div class="col-md-3 col-sm-12 text-center ml-md-5">
+        <div class="contact mb-3">
+        <img src="img/email.jpg">
+        <div class="contact-icon"><i class="icon-mail"></i></div>
+        </div>
+        <p class="title-small text-uppercase">email</p>
+        <p class="text-uppercase mb-0">hello@codecafe.com</p>
+        <p class="text-uppercase">Personal@codecafe.com</p>
+      </div>
+      <div class="col-md-3 col-sm-12 text-center">
+        <div class="contact mb-3">
+        <img src="img/office.jpg">
+        <div class="contact-icon"><i class="icon-location"></i></div>
+        </div>
+        <p class="title-small text-uppercase">Our office</p>
+        <p class="text-uppercase mb-0">240 Bhatikhana, 8200 Barisal</p>
+        <p class="text-uppercase">Bangladesh</p>
+      </div>
+      <div class="col-md-3 col-sm-12 text-center mr-md-5">
+        <div class="contact mb-3">
+        <img src="img/phone.jpg">
+        <div class="contact-icon"><i class="icon-phone"></i></div>
+        </div>
+        <p class="title-small text-uppercase">Phone</p>
+        <p class="text-uppercase mb-0">+00 11 66 99 66 44</p>
+        <p class="text-uppercase">11 99 66 44 065</p>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="contact-input offset-md-1 offset-0 col-md-10 d-flex justify-content-center">
+        <form>
+        <input type="text" name="name" size="35" placeholder="Your name" tabindex="1" class="p-1">
+        </form>
+        <form>
+        <input type="text" name="email" size="35" placeholder="Email address" tabindex="2" class="p-1">
+        </form>
+        <form>
+        <input type="text" size="35" placeholder="Subject" tabindex="3" class="p-1">
+        </form>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="offset-md-1 offset-0 col-md-10 d-flex justify-content-center">
+        <form>
+        <input type="text" size="123" tabindex="4" class="pb-5">
+        </form>
+      </div>
+    </div>
+    <div class="row">
+     <div class="offset-md-1 offset-0 col-md-10 mb-5">
+      <form>
+        <button type="button" class="text-uppercase btn-contact white">Submit now</button>
+      </form>
+     </div>
+    </div>
+  </div>
+</section>
+
+<section class="mb-5">
+    <div class="map d-flex justify-content-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1638.9539495959511!2d27.608974929323143!3d53.886525449823054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbce3be79334d9%3A0x817b228ea6dc30f0!2z0KHRgtC-0YDQvNC90Y3RgiDQotC10LrQvdC-0LvQvtC00LbQuNGBIChTdG9ybW5ldCk!5e0!3m2!1sru!2sby!4v1573340973475!5m2!1sru!2sby" width="1200" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <!-- <div class="row">
+     <div class="offset-md-5 offset-sm-2 col-md-2 map-1">
+       <p class="heading text-center white text-uppercase text-center">Find us on the map <a href="#"><i class="icon-angle-down"></i></a></p>
+     </div>
+    </div> -->
+</section>
+
+<footer id="footer">
+  <div class="container mb-3">
+    <div class="row">
+      <div class="offset-md-4 offset-sm-3 col-md-4 col-sm-6 text-center">
+        <p class="footer-logo">Bouncy</p>
+        <p>Copyright 2015. All rights Reserved</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-md-5 offset-0 col-md-2 d-flex justify-content-center">
+       <a href="https://www.facebook.com/"><i class="icon-facebook"></i></a>
+       <a href="https://twitter.com/?lang=ru"><i class="icon-twitter"></i></a>
+       <a href="https://www.linkedin.com/"><i class="icon-linkedin"></i></a>
+       <a href="https://www.instagram.com/"><i class="icon-instagram"></i></a>
+       <a href="https://vimeo.com/"><i class="icon-vimeo"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>
